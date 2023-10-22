@@ -15,6 +15,8 @@ export const ScrollViewListItem = memo(({ highlight, title, style, onPress, numb
         titleEnd = title.slice(substrIndex + highlight.length)
       } else {
         titleStart = title
+        titleHighlighted = ''
+        titleEnd = ''
       }
     }
 
